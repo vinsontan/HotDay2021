@@ -1,0 +1,14 @@
+ platform: "kubernetes"
+
+ oneagent:
+   name: "oneagent"
+   apiUrl: "https://<tenantid>/api"
+   args:
+     - --set-app-log-content-access=true
+   skipCertCheck: true
+   enableIstio: true
+
+ secret:
+   apiToken: "<apiToken>"
+   paasToken: "<paasToken>"
+
