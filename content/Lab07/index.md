@@ -1,1 +1,1 @@
-## Process Group & Service Naming Rules
+## Process Detection for Canary Deployment

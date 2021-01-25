@@ -1,4 +1,4 @@
-## Instrumenting Kubernetes with the OneAgent
+## Instrumenting Kubernetes with Dynatrace
 
 In this exercise we will install the Dynatrace Operator.
 

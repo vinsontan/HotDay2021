@@ -1,12 +1,16 @@
-## Installing Sock Shop Sample Application
+## Deploy Sock Shop Sample Application
 
 ### Deploy SockShop
 1. On the EKS Bastion Host deploy sockshop
+  ```
   ./deploy-sockshop.sh
+  ```
 
 ### Validate SockShop Dev instance
 1. List all objects
+  ```
    kubectl get all -n dev
+  ```
 
   ![SockShopDevRunning](../assets/images/sockshopdev.png)
 
@@ -21,8 +25,10 @@
 
 ### Validate SockShop Production instance
 1. List all objects
+  ```
   kubectl get all -n production
-
+  ```
+  
  ![SockShopDevRunning](../assets/images/sockshopdev.png)
 
 2. Wait a couple of minutes until all the pods are Ready and Running and the LoadBalancer objects have EXTERNAL-IPs

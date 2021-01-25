@@ -1,2 +1,1 @@
-## Container Environment Variables
-
+## Process Group & Service Naming Rules
