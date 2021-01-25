@@ -1,6 +1,6 @@
 ## Container Environment Variables
 
-Dynatrace can utilize environment variables to automatically set Tags and Custom Properties. More details on on defining tags and custom properties via environment variables located here: ![ENVTAGS](https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/setup/define-tags-based-on-environment-variables/)
+Dynatrace can utilize environment variables to automatically set Tags and Custom Properties. More details on on defining tags and custom properties via environment variables located here: https://www.dynatrace.com/support/help/how-to-use-dynatrace/tags-and-metadata/setup/define-tags-based-on-environment-variables/
 
 ### 1. Adding Environment variables
 
