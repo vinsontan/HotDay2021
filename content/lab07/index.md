@@ -25,7 +25,7 @@ Click <b>Add detection</b> rule.
 
 Select Use a process property
 
-![JSON](../../assets/processdetectionrule1.png)
+![processdetection](../../assets/images/processdetectionrule1.png)
 
 We want to apply this rule for pods running in production only (namespace=production)
 
