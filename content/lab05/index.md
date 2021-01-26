@@ -4,10 +4,10 @@ Dynatrace can utilize environment variables to automatically set Tags and Custom
 
 ### 1. Adding Environment variables
 
-1. Examine the front-end-env.yml manifest file.
+1. Examine the content/lab04/front-end.yml manifest file.
 
    ```
-   cat content/Lab05/front-end-env.yml
+   cat content/lab04/front-end.yml
    ```
 
    ![ENVYML](../../assets/images/ymlenv.png))
@@ -15,13 +15,13 @@ Dynatrace can utilize environment variables to automatically set Tags and Custom
 2. Apply the front-end-env.yml file.
 
    ```
-   kubectl apply -f content/Lab05/front-end-env.yml
+   kubectl apply -f content/lab04/front-end.yml
    ```
 
 3. Restart the production front-end pods
 
    ```
-   ./recycle-sockshop-frontend.sh
+   k8s-apps/recycle-sockshop-frontend.sh
    ```
 
 
@@ -29,4 +29,4 @@ Dynatrace can utilize environment variables to automatically set Tags and Custom
 
 Once working, you can validate the change in Dynatrace
 
-![JSON](https://github.com/Nodnarboen/k8s-workshop/blob/master/assets/Picture14.png)
+[JSON](https://github.com/Nodnarboen/k8s-workshop/blob/master/assets/Picture14.png)
