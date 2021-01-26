@@ -37,4 +37,4 @@ Wait for the Dynatrace to pickup the change. Alternatively, you can recycle the 
 
 Once working, you can validate the change in Dynatrace
 
-![SockShopDevRunning](../assets/images/lab4-labels_annotations.png)
+![SockShopDevRunning](../../assets/images/lab4-labels_annotations.png)
