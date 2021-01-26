@@ -36,7 +36,7 @@ Remember the pod names have ".stable "or ".canary" in their name to distinguish 
 
 Recycle both stable and canary frontend pods. The process detection rules are applied on process startup.
 
-<b>./recycle-sockshop-frontend.sh </b>
+<b>./recycle-sockshop-frontend-production.sh </b>
 
 Make sure the pods are ready 
 
