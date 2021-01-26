@@ -1,4 +1,3 @@
-@@ -1,39 +0,0 @@
 ## Kubernetes Labels and Annotations
 For our Hands-On, you will need to be running the sample application sock-shop deployed earlier in the labs.
 
