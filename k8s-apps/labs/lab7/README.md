@@ -13,7 +13,7 @@ Execute <b>kubectl get pods -n production -o wide</b> and you will see you now h
 Wait 1-2 minutes then look the Services in Dynatrace. You have 2 services in production, one for stable and one for canary release.
 For monitoring purposes, it should be the same service
 
-![JSON](assets/images/canary process.jpg)
+![JSON](https://github.com/jfynboh/HotDay2021/blob/master/assets/images/canary process.jpg)
 
 ### 2. Process Detection Rule Config
 
