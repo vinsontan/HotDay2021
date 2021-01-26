@@ -1,1 +1,0 @@
-## Kubernetes Labels and Annotations
