@@ -2,9 +2,9 @@
 For our Hands-On, you will need to be running the sample application sock-shop deployed earlier in the labs.
 
 ### 1. Run the Sample App sock-shop
-Make sure sample sockshop app is dedployed.  Navigate to the frontend service and notice the missing labels and annotations at a service level.
+Make sure sample sockshop app is deployed.  Navigate to the frontend service and notice the missing labels and annotations at a service level.
 
-Once running, you can go to HotDay2021/content/Lab04/front-end.yml to view the content in it
+Once running, you can go to HotDay2021/content/lab04/front-end.yml to view the content in it
 
 ### 2. Apply the manifest to the environment
 
