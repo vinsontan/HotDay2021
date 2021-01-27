@@ -92,7 +92,7 @@ metadata:
   name: front-end-canary
   labels:
     app: front-end.canary
-  hamespace: production
+  namespace: production
 spec:
   ports:
   - name: http
