@@ -15,27 +15,30 @@ In this exercise we will install the Dynatrace Operator.
 3. Click on Kubernetes tile from above
    ![DeployK8S](../../assets/images/deployk8s-full.png)
 
-4. Click Create PaaS token
+4. Click on Monitor Kubernetes
+   ![SearchForK8S](../../assets/images/monitork8s.png)
+
+5. Click Create PaaS token
 
    ![CreatePaasToken](../../assets/images/createpaastoken.png)
 
    - After creating the PaaS token follow the step 1-3 above to get back to this screen.
 
-5. Create API token
+6. Create API token
 
    ![CreateAPIToken](../../assets/images/createapitoken.png)
 
    - After creating the PaaS token follow the step 1-3 above to get back to this screen.
 
-6. Select the PaaS and API tokens you created above
+7. Select the PaaS and API tokens you created above
 
    ![SelectTokens](../../assets/images/selecttokens.png)
 
-7. Click the Copy Button
+8. Click the Copy Button
 
    ![CopyScript](../../assets/images/copyscript.png)
 
-8. Run Script on Bastion host
+9. Run Script on Bastion host
 
    ![RunScript](../../assets/images/runscript1.png)
    ![RunScript](../../assets/images/runscript2.png)
