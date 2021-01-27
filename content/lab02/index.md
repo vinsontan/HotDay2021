@@ -3,6 +3,7 @@
 ### Deploy SockShop
 1. On the EKS Bastion Host deploy sockshop
   ```
+  cd k8s-apps
   ./deploy-sockshop.sh
   ```
 
@@ -28,7 +29,7 @@
   ```
   kubectl get all -n production
   ```
-  
+
  ![SockShopDevRunning](../assets/images/sockshopdev.png)
 
 2. Wait a couple of minutes until all the pods are Ready and Running and the LoadBalancer objects have EXTERNAL-IPs
