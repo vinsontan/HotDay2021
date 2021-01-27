@@ -28,7 +28,11 @@ In this exercise we will install the Dynatrace Operator.
 
    ![CreateAPIToken](../../assets/images/createapitoken.png)
 
-   - After creating the PaaS token follow the step 1-3 above to get back to this screen.
+   - Make sure you have the "Access problem and event feed, metrics, and topology", "Read Configuration" and "Write Configuration" settings enabled for the API token.
+
+   ![CreateAPIToken](../../assets/images/apitoken.png)
+
+   -After creating the PaaS token follow the step 1-3 above to get back to this screen.
 
 7. Select the PaaS and API tokens you created above
 
