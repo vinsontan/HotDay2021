@@ -46,11 +46,16 @@ Within Dynatrace, you can see that the two Process Groups "k8s-sockshop.producti
 
 ![Process-Group-with-instancename](../../assets/images/processgroupinstancenameupdated.jpg)
 
-The services are still detected as individual services and can be merged as well.
 
-Settings -> Merge Service monitoring -> Create merged service
+Create a process group naming rule to include "prod.canary/stable" at the end of the process group name to make it easier to identity process group. Specify the process group naming format to <b>k8s-{ProcessGroup:Kubernetes:pipeline.project}.{ProcessGroup:KubernetesNamespace}.{ProcessGroup:KubernetesContainerName} ({ProcessGroup:Kubernetes:pipeline.stage})</b>
 
-![Service-Merged](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture24.2.png)
+
+![Process-Group-naming rules](../../assets/images/processgroupcanarynamingrule.jpg)
+
+
+![Process-Group-with-instancename](../../assets/images/processgroupcanaryinstance.jpg)
+![Process-Group-with-instancename](../../assets/images/processgroupstableinstance.jpg)
+
 
 ### 3. Validate
 
