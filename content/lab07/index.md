@@ -44,7 +44,7 @@ Make sure the pods are ready
 
 Within Dynatrace, you can see that the two Process Groups "k8s-sockshop.production.front-end" have been created with each process group having either the canary instance or stable instance.
 
-![Process-Group-with-instancename](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture24.1.png)
+![Process-Group-with-instancename](../../assets/images/processgroupinstancenameupdated.jpg)
 
 The services are still detected as individual services and can be merged as well.
 
