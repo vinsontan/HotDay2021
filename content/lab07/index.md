@@ -19,9 +19,9 @@ For monitoring purposes, it should be the same service
 
 In the Dynatrace console, go in Settings -> Processes and containers -> Process group detection.
 
-Expand the Cloud application and workload detection section.
+Expand the <b>Cloud application and workload detection</b> section.
 
-As per our documentation, you will need to use the disable Cloud application and workload detection while enabling the rule based tag feature with DT-ContainerBoundariesAffected to select the process groups.
+As per our documentation, you will need to use the disable <b>Cloud application and workload detection</b> while <b>enabling the rule based tag feature</b> with DT-ContainerBoundariesAffected to select the process groups.
 
 Expand the Process detection rules section. 
 
