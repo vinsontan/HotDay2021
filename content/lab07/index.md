@@ -32,7 +32,7 @@ We want to apply this rule for pods running in production only (namespace=produc
 Also, extract the identifier after the "." in the pod name. 
 Remember the pod names have ".stable "or ".canary" in their name to distinguish them
 
-![JSON](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture24.png)
+![processdetection](../../assets/images/processdetectionrule2.jpg)
 
 Recycle both stable and canary frontend pods. The process detection rules are applied on process startup.
 
