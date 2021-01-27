@@ -22,7 +22,7 @@ Click on <b>Save</b>
 
 Once working, you can validate the change in Dynatrace
 
-![ProcessValidation](../../assets/images/lab6-process_validation)
+![ProcessValidation](../../assets/images/lab6-process_validation.png)
 
 ### 2a. Service Naming Rules
 
