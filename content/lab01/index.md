@@ -72,6 +72,11 @@ In this exercise we will install the Dynatrace Operator.
 
    ![K8SEventSelector](../../assets/images/nonnodeevent.png)
 
+   - Field selector
+   ```
+   involvedObject.kind!=Node
+   ```
+
    - Click Save.
 
 6.  Toggle on Monitor events
