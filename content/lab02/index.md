@@ -22,7 +22,8 @@
    - Use the External IP of service/front-end and port 8080  
    ![SockShopDevWeb](../assets/images/sockshopdevweb.png)  
    - Register an account
-   - Purchase an item
+   - Browse the items
+   - Add an item to your cart
 
 ### Validate SockShop Production instance
 1. List all objects
@@ -39,4 +40,5 @@
   - Use the External IP of service/front-end and port 8080  
   ![SockShopDevWeb](../assets/images/sockshopdevweb.png)  
   - Register an account
-  - Purchase an item
+  - Browse the items
+  - Add an item to your cart
