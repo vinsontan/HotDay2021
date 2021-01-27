@@ -76,5 +76,14 @@ Define the tagging rule as below:
 ![automatictaggingrule](../../assets/images/automatictaggingrule.png)
 
 
+### 5. Create custom chart to compare response time between stable and canary frontend service
+
+In the Dynatrace console, create a custom chart from the left pane menu.
+
+Select "Services" metric category and select "<b>Services -> Response Time</b>" metic
+Enable dimension to be split by "<b>Service</b>"
+Filter the service list by selecting tag you created earlier (Example: "frontend prod")
+
+![customchartservice](../../assets/images/servicecomparecustomchart.png)
 
 
