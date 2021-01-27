@@ -58,6 +58,8 @@ Create a process group naming rule to include "prod.canary/stable" at the end of
 
 ![Process-Group-naming rules](../../assets/images/processgroupnamingrule.jpg)
 
+Make sure the new rule is the first rule:
+![Process-Group-naming rules](../../assets/images/processgroupnamingrulesort.jpg)
 
 ![Process-Group-with-instancename](../../assets/images/processgroupcanaryinstance.jpg)
 ![Process-Group-with-instancename](../../assets/images/processgroupstableinstance.jpg)
