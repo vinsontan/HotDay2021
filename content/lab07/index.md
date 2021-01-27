@@ -86,4 +86,7 @@ Filter the service list by selecting tag you created earlier (Example: "frontend
 
 ![customchartservice](../../assets/images/servicecomparecustomchart.png)
 
+Now you can compare the response time between canary and stable release:
+
+![customchartservice](../../assets/images/servicecomparecustomchart2.png)
 
