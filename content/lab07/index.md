@@ -66,7 +66,7 @@ The new process group name should appear as below format:
 
 
 
-### 3. Create automatic tagging rule (to tag frontend service with pipeline stage =prod.*)
+### 4. Create automatic tagging rule (to tag frontend service with pipeline stage =prod.*)
 
 In the Dynatrace console, go in Settings -> Tags -> Automatically applied tags
 
@@ -75,6 +75,6 @@ Click <b>Add a new Rule</b>.
 Define the tagging rule as below:
 ![automatictaggingrule](../../assets/images/automatictaggingrule.png)
 
-:arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../la6/README.md) 
+
 
 
