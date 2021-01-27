@@ -66,19 +66,14 @@ The new process group name should appear as below format:
 
 
 
-### 3. Validate
+### 3. Create automatic tagging rule (to tag frontend service with pipeline stage =prod.*)
 
-![JSON](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture25.png)
+In the Dynatrace console, go in Settings -> Tags -> Automatically applied tags
 
-With the services merged as one, you can now view monitor Stable vs Canary response
+Click <b>Add a new Rule</b>.
 
-Create Multi-dimensional Analysis view by selecting "<b>Create Chart</b>" 
-
-![JSON](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture26.png)
-
-Choose <b>Response Time - Server</b> and select <b>Service Instance</b> as Dimension Splitting
-
-![JSON](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture27.png)
+Define the tagging rule as below:
+![automatictaggingrule](../../assets/images/automatictaggingrule.png)
 
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../la6/README.md) 
 
