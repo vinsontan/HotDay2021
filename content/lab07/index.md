@@ -50,7 +50,7 @@ Within Dynatrace, you can see that the two Process Groups "k8s-sockshop.producti
 Create a process group naming rule to include "prod.canary/stable" at the end of the process group name to make it easier to identity process group. Specify the process group naming format to <b>k8s-{ProcessGroup:Kubernetes:pipeline.project}.{ProcessGroup:KubernetesNamespace}.{ProcessGroup:KubernetesContainerName} ({ProcessGroup:Kubernetes:pipeline.stage})</b>
 
 
-![Process-Group-naming rules](../../assets/images/processgroupcanarynamingrule.jpg)
+![Process-Group-naming rules](../../assets/images/processgroupnamingrule.jpg)
 
 
 ![Process-Group-with-instancename](../../assets/images/processgroupcanaryinstance.jpg)
